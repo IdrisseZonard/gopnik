@@ -59,7 +59,7 @@ bot.on('message', message => {
         if(message.content === prefix + 'gmod') {
             message.delete()
 
-            let role = message.guild.roles.find("name", "Gmod")
+            let role = message.guild.roles.find("name", "🎮 Gmod 🎮")
 
                 message.member.addRole(role)
                 message.reply("Tu as maintenant l'accès a tous les channels Garry's Mod")
@@ -70,7 +70,7 @@ bot.on('message', message => {
         if(message.content === prefix + 'arma3') {
             message.delete()
 
-            let role = message.guild.roles.find("name", "Arma 3")
+            let role = message.guild.roles.find("name", "🎮 Arma 3 🎮")
 
                 message.member.addRole(role)
                 message.reply("Tu as maintenant l'accès a tous les channels Arma 3")
@@ -81,7 +81,7 @@ bot.on('message', message => {
         if(message.content === prefix + 'csgo') {
             message.delete()
 
-            let role = message.guild.roles.find("name", "CSGO")
+            let role = message.guild.roles.find("name", "🎮 CSGO 🎮")
 
                 message.member.addRole(role)
                 message.reply("Tu as maintenant l'accès a tous les channels CSGO")
@@ -92,7 +92,7 @@ bot.on('message', message => {
         if(message.content === prefix + 'rust') {
             message.delete()
 
-            let role = message.guild.roles.find("name", "Rust")
+            let role = message.guild.roles.find("name", "🎮 Rust 🎮")
 
                 message.member.addRole(role)
                 message.reply("Tu as maintenant l'accès a tous les channels Rust")
